@@ -207,6 +207,14 @@
       font-size: 0.9rem;
     }
 
+    .pdf-icon {
+      width: 18px;
+      height: 18px;
+    }
+    .reading {
+      text-align: center;
+    }
+
     code {
       font-family: "SFMono-Regular", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       background: var(--code-bg);
@@ -445,6 +453,11 @@
     <!-- Schedule (simple template you can fill) -->
     <section id="schedule">
       <h2>Schedule</h2>
+      <p>
+        In the schedule below, the blue PDF icon 
+        <img src="pdf-icon.png" alt="PDF" class="pdf-icon">
+        represents the required readings for the week.
+      </p>
       <table class="table-like">
         <thead>
           <tr>
@@ -489,7 +502,13 @@
             <td>5</td>
             <td>February 4, 2026</td>
             <td>Surgery (PI: Amin Madani)</td>
-            <td></td>
+            <td class="reading">
+              <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2824885" 
+                 target="_blank" 
+                 aria-label="Required reading">
+                <img src="pdf-icon.png" alt="PDF" class="pdf-icon">
+              </a>
+            </td>
             <td>Project proposal due date</td>
           </tr>
           
